@@ -1,5 +1,5 @@
 # Ignore the virtual environment folder
-venv/
+newenv/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -50,9 +50,9 @@ coverage.xml
 .ipynb_checkpoints
 
 # Environments
-.env
+.newenv
 .venv
-env/
+newenv/
 venv/
 ENV/
 env.bak/
