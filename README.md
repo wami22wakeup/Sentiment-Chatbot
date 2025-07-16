@@ -5,29 +5,6 @@ A conversational AI chatbot that **detects user sentiment using BERT** and gener
 
 ---
 
-## 📂 Project Structure
-
-```
-Sentiment-Chatbot/
-│
-├── data_preparation.py            # Combines and preprocesses IMDb & Emotion datasets
-├── train_sentiment_model.py       # Fine-tunes BERT for sentiment classification
-├── train_response_model.py        # Fine-tunes GPT-2 for chatbot responses
-├── streamlit_app.py               # Streamlit web UI
-├── app.py                         # Optional: backend logic helper
-│
-├── models/
-│   ├── sentiment_model/           # Saved BERT model
-│   └── response_model/            # Saved GPT-2 model
-│
-└── data/
-    ├── imdb_reviews.csv
-    ├── emotion_dataset.csv
-    └── combined_dataset.csv
-```
-
----
-
 ## 🛠️ Tech Stack
 
 * **Python 3.12**
